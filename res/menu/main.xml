@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.messaging.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_newSMS"
+        android:title="@string/action_newSMS"
+        android:icon="@drawable/ic_action_email"
+        android:showAsAction="always" />
+        
+    <item
+        android:id="@+id/action_overflow"
+        android:title="@string/action_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always" >
+        
+        <menu>
+            <item 
+                android:id="@+id/action_spam"
+                android:title="@string/action_spam"
+                android:icon="@drawable/ic_spam_icon"
+                android:showAsAction="always"/>
+            <item 
+                android:id="@+id/action_folder"
+                android:title="@string/action_folder"
+                android:icon="@drawable/ic_spam_icon"
+                android:showAsAction="always"/>
+            <item 
+                android:id="@+id/action_settings_app"
+                android:title="@string/action_settings"
+                android:icon="@drawable/settings_gear"
+                android:showAsAction="always"/>
+        </menu>
+            
+        
+        </item>
+    
+
+</menu>
